@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  .filter-container {
+    margin-bottom: 10px;
+  }
+  
+  .card {
+    width: 100%;
+    background-color: #f8f9fa; /* Replace with your desired background color */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .button-group {
+    margin-top: 10px;
+  }
+  
+  .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    min-width: 100%;
+  }
+  
+  .dropdown-item {
+    cursor: pointer;
+  }
+
+.primary-button {
+  background-color: #007bff; /* Replace with your desired color */
+  color: #fff;
+  margin-right: 5px;
+}
+
+/* Add a custom class for secondary button */
+.secondary-button {
+  background-color: #6c757d; /* Replace with your desired color */
+  color: #fff;
+  margin-right: 5px;
+}
+
+.success-button {
+  background-color: #28a745;
+  color: #fff;
+  margin-right: 5px;
+}
+
+/* Danger button */
+.danger-button {
+  background-color: #dc3545;
+  color: #fff;
+  margin-right: 5px;
+}
+
+/* Light button */
+.light-button {
+  background-color: #f8f9fa;
+  color: #212529;
+  margin-right: 5px;
+}
+
+/* Dark button */
+.dark-button {
+  background-color: #343a40;
+  color: #fff;
+  margin-right: 5px;
+}
